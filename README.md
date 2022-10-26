@@ -12,31 +12,31 @@
 
 ### 기획
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/Planning.png)
+![Planning](https://user-images.githubusercontent.com/74301875/197924441-67ce6bc7-fa82-44a5-a79e-d877406d077f.png)
 
 
 
 ### 간트차트
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/GanttChart.png)
+![GanttChart](https://user-images.githubusercontent.com/74301875/197924498-cf035b64-396d-4c71-88b3-3bc5f33deaf5.png)
 
 
 
 ### ERD
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/erd.PNG)
+![erd](https://user-images.githubusercontent.com/74301875/197924522-4b3b8b18-062b-4186-ade2-c81f5ead46d9.png)
 
 
 
 ### 개발 도구
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/DevTools.png)
+![DevTools](https://user-images.githubusercontent.com/74301875/197924540-b9ada77c-94eb-45b3-ba20-ccdf65ae702f.png)
 
 
 
 ### System Architecture
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/System%20Architecture.png)
+![System Architecture](https://user-images.githubusercontent.com/74301875/197924555-d9a5ceac-cb8a-4f37-9ec9-2cea5676f657.png)
 
 
 
@@ -44,7 +44,7 @@
 
 > 저희 문제 추천 알고리즘은 크게 다섯 단계로 구분됩니다.
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/RecommendAlgorithm1.png)
+![RecommendAlgorithm1](https://user-images.githubusercontent.com/74301875/197924569-1149c475-4864-4eda-b788-9098d095aa9b.png)
 
     1. solved.ac api를 이용하여 현재 사용자가 푼 문제들을 가져옵니다.
 
@@ -52,7 +52,7 @@
 
     3. 정의 되어 있던 실버~플래티넘 티어 유저들의 각 알고리즘 별 푼 문제 수가 담긴 KNN 테이블(C)를 불러옵니다.
 
-![](https://lab.ssafy.com/s06-bigdata-rec-sub2/S06P22C204/-/raw/dev/image/RecommendAlgorithm2.png)
+![RecommendAlgorithm2](https://user-images.githubusercontent.com/74301875/197924591-6e85466c-c6ad-42fe-b461-0f7e96cdcb83.png)
 
     4. 각 사용자와 방향성을 비교하기 위해 배열(A)와 테이블(C의 각 row)의 코사인 유사도를 계산하여 그 값을 배열(D)에 담습니다.
 
